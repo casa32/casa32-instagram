@@ -2,6 +2,43 @@
  "note": "Raw files live in the private project folder /mnt/project-files/instagram/raw-casa-photos/ (path below is relative to it). Process at post time with tools/enhance.py (+ blur_faces.py), push only processed files to library/.",
  "carousels": [
   {
+   "id": "late-autumn",
+   "desc": "늦가을 외관, 김 나는 온수풀, 객실, 해질녘·야경",
+   "season": "late autumn (Nov)",
+   "photos": [
+    {
+     "path": "photos/KakaoTalk_20261113_124637229_03.jpg",
+     "sha256": "0d35a3e2db511bcb2495bd46d4bae7774af34c2140572bb801e44fa07d590446"
+    },
+    {
+     "path": "photos/KakaoTalk_20261113_125734003_09.jpg",
+     "sha256": "46d3bf3aad85a424d13729da020598a0333f11eff51784020d6676baaea9da72"
+    },
+    {
+     "path": "photos/KakaoTalk_20261113_125734003_08.jpg",
+     "sha256": "e14ea2d90fb46682c48d2ae1a7687b828d1769a2b4658b76e74e30e3bad093d9"
+    },
+    {
+     "path": "photos/KakaoTalk_20261113_124637229_05.jpg",
+     "sha256": "b76b9bf30f1a8be0ddb2259f9a86c44dde94e3378d38800e41243817fa80d6a1"
+    },
+    {
+     "path": "photos/KakaoTalk_20261113_124637229_01.jpg",
+     "sha256": "a736cac9daecbb779fd7a2741485ab06d6c6d0d51a4c2b437232b8b548d9a6c0"
+    },
+    {
+     "path": "photos/KakaoTalk_20261113_125121418_16.jpg",
+     "sha256": "ba3781b232dfef87a0754d6dfae574c52b96e00e51fdc509c299640d63f99ef8"
+    },
+    {
+     "path": "photos/KakaoTalk_20261113_130319974_03.jpg",
+     "sha256": "2a982496f8bc97c6514e21b5db6cc3a653bd10f5129c6604f10ddbc81a7822ba"
+    }
+   ],
+   "built": "library/carousel/late-autumn/",
+   "used": null
+  },
+  {
    "id": "winter-pool",
    "desc": "겨울 온수 인피니티풀 (눈, 김)",
    "photos": [
@@ -34,8 +71,10 @@
      "sha256": "f2025900dbd503b9f999993b59498bc19bb4b0f428fb01e69b2d113c26de21e1"
     }
    ],
-   "posted": "2026-11-13-built",
-   "used": null
+   "posted": null,
+   "used": null,
+   "season": "winter: only Dec–Feb and only after real snow",
+   "built": "library/carousel/winter-pool/"
   },
   {
    "id": "loft-room",
@@ -75,7 +114,8 @@
     }
    ],
    "posted": null,
-   "used": null
+   "used": null,
+   "season": "any"
   },
   {
    "id": "day-to-night",
@@ -111,7 +151,8 @@
     }
    ],
    "posted": null,
-   "used": null
+   "used": null,
+   "season": "any"
   },
   {
    "id": "misty-morning",
@@ -139,7 +180,8 @@
     }
    ],
    "posted": null,
-   "used": null
+   "used": null,
+   "season": "any"
   },
   {
    "id": "white-room",
@@ -163,7 +205,8 @@
     }
    ],
    "posted": null,
-   "used": null
+   "used": null,
+   "season": "any"
   },
   {
    "id": "summer-pool",
@@ -203,7 +246,8 @@
     }
    ],
    "posted": null,
-   "used": null
+   "used": null,
+   "season": "summer (Jun–Aug)"
   },
   {
    "id": "autumn-exterior",
@@ -239,7 +283,8 @@
     }
    ],
    "posted": null,
-   "used": null
+   "used": null,
+   "season": "autumn (Sep–Nov)"
   },
   {
    "id": "terrace-bbq",
@@ -275,10 +320,18 @@
     }
    ],
    "posted": null,
-   "used": null
+   "used": null,
+   "season": "spring–autumn"
   }
  ],
  "reels": [
+  {
+   "id": "late-autumn-01",
+   "desc": "늦가을 외관→풀사이드→해질녘→김 나는 온수풀→야경 (20s, silent)",
+   "file": "library/reels/late-autumn-01.mp4",
+   "season": "late autumn (Nov)",
+   "used": null
+  },
   {
    "id": "winter-pool-01",
    "desc": "겨울 청평호와 김 나는 온수풀",
@@ -288,7 +341,8 @@
     "videos/KakaoTalk_20261113_125803661.mp4",
     "videos/KakaoTalk_20261113_124027091.mp4"
    ],
-   "used": null
+   "used": null,
+   "season": "winter: only after real snow"
   },
   {
    "id": "summer-pool-01",
@@ -301,5 +355,5 @@
    "used": null
   }
  ],
- "excluded": "Photos/videos with faces (has_people) are not in sets yet; sauna shots excluded (don't advertise sauna); photo with 'EXPERIENCE BUSAN' sign excluded; selfies excluded."
+ "excluded": "Photos/videos with faces (has_people) are not in sets yet; sauna shots excluded (don't advertise sauna); photo with 'EXPERIENCE BUSAN' sign excluded; selfies excluded. Video KakaoTalk_20261113_124100477.mp4 shows a child at 14-21s although flagged has_people=false; use only 0-12s or 40s+."
 }
