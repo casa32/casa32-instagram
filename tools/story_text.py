@@ -3,7 +3,9 @@ import sys
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 pid, title, sub = sys.argv[1], sys.argv[2], sys.argv[3]
 bottom = sys.argv[4] if len(sys.argv) > 4 else "📍 가평 청평호 · CASA32"
-src = Image.open(f"feed/{pid}.jpg").convert("RGB")
+import os; sys.path.insert(0, os.path.dirname(__file__))
+from enhance import retouch
+src = retouch(Image.open(f"feed/{pid}.jpg"))
 w, h = src.size
 bg = src.resize((int(1920 * w / h), 1920), Image.LANCZOS); cx = (bg.width - 1080) // 2
 bg = bg.crop((cx, 0, cx + 1080, 1920)).filter(ImageFilter.GaussianBlur(40))
