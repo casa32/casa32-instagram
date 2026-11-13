@@ -449,5 +449,11 @@
       "use": "reel segments via tools/make_reel.py (type video)"
     }
   ],
-  "winter_teaser_log": []
+  "winter_teaser_log": [
+    {
+      "date": "2026-11-13",
+      "kind": "story",
+      "media": "story_text/wt_125734003_05.jpg"
+    }
+  ]
 }
