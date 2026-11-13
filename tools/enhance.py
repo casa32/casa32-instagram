@@ -14,9 +14,9 @@ def retouch(im):
     means = ImageStat.Stat(im).mean; avg = sum(means) / 3
     chans = [c.point(lambda v, k=(1 + (avg / m - 1) * 0.5): min(255, int(v * k))) for c, m in zip((r, g, b), means)]
     im = Image.merge("RGB", chans)
-    im = ImageOps.autocontrast(im, cutoff=0.5)
-    im = ImageEnhance.Contrast(im).enhance(1.06)
-    im = ImageEnhance.Color(im).enhance(1.10)
+    im = ImageOps.autocontrast(im, cutoff=0.3, preserve_tone=True)
+    im = ImageEnhance.Contrast(im).enhance(1.04)
+    im = ImageEnhance.Color(im).enhance(1.05)
     im = ImageEnhance.Brightness(im).enhance(1.03)
     return im.filter(ImageFilter.UnsharpMask(radius=1.2, percent=60, threshold=3))
 def fit(im, W, H, fx=0.5):
@@ -34,7 +34,7 @@ elif mode == "img":
 else:
     src, dst = sys.argv[2:4]
     vf = ("scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,"
-          "eq=contrast=1.06:saturation=1.12:brightness=0.02,unsharp=5:5:0.6,fps=30")
+          "eq=contrast=1.04:saturation=1.06:brightness=0.01,unsharp=5:5:0.6,fps=30")
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", src, "-vf", vf, "-c:v", "libx264", "-preset", "slow",
                     "-crf", "19", "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "128k", "-movflags", "+faststart", dst], check=True)
 if mode != "lib": print(dst)

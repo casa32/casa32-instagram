@@ -7,20 +7,16 @@
    "season": "late autumn (Nov)",
    "photos": [
     {
-     "path": "photos/KakaoTalk_20261113_124637229_03.jpg",
-     "sha256": "0d35a3e2db511bcb2495bd46d4bae7774af34c2140572bb801e44fa07d590446"
-    },
-    {
      "path": "photos/KakaoTalk_20261113_125734003_09.jpg",
      "sha256": "46d3bf3aad85a424d13729da020598a0333f11eff51784020d6676baaea9da72"
     },
     {
-     "path": "photos/KakaoTalk_20261113_124011946_02.jpg",
-     "sha256": "fcd77f08431ff8b4b1aa48baac05c7d24ea4bc3f200a0245a8b45a942d4b6912"
-    },
-    {
      "path": "photos/KakaoTalk_20261113_124637229_05.jpg",
      "sha256": "b76b9bf30f1a8be0ddb2259f9a86c44dde94e3378d38800e41243817fa80d6a1"
+    },
+    {
+     "path": "photos/KakaoTalk_20261113_124011946_02.jpg",
+     "sha256": "fcd77f08431ff8b4b1aa48baac05c7d24ea4bc3f200a0245a8b45a942d4b6912"
     },
     {
      "path": "photos/KakaoTalk_20261113_124637229_01.jpg",
@@ -36,7 +32,8 @@
     }
    ],
    "built": "library/carousel/late-autumn/",
-   "used": null
+   "used": null,
+   "cover_text": "Late autumn at CASA32 / 쌀쌀해진 오후, 따뜻한 물 위로"
   },
   {
    "id": "winter-pool",

@@ -1,29 +1,21 @@
-"""Make a 1080x1920 story with text: python3 tools/story_text.py <id> "<title>" "<sub>" ["<bottom>"]"""
-import sys
-from PIL import Image, ImageDraw, ImageFont, ImageFilter
-pid, title, sub = sys.argv[1], sys.argv[2], sys.argv[3]
-bottom = sys.argv[4] if len(sys.argv) > 4 else "📍 가평 청평호 · CASA32"
-import os; sys.path.insert(0, os.path.dirname(__file__))
-from enhance import retouch
-src = retouch(Image.open(f"feed/{pid}.jpg"))
-w, h = src.size
-bg = src.resize((int(1920 * w / h), 1920), Image.LANCZOS); cx = (bg.width - 1080) // 2
-bg = bg.crop((cx, 0, cx + 1080, 1920)).filter(ImageFilter.GaussianBlur(40))
-bg = Image.blend(bg, Image.new("RGB", bg.size, (0, 0, 0)), 0.35)
-fg = src.resize((1000, int(1000 * h / w)), Image.LANCZOS)
-y0 = (1920 - fg.height) // 2 + 60
-bg.paste(fg, (40, y0))
-d = ImageDraw.Draw(bg)
-T = ImageFont.truetype("fonts/Pretendard-SemiBold.otf", 72)
-S = ImageFont.truetype("fonts/Pretendard-Light.otf", 40)
-B = ImageFont.truetype("fonts/Pretendard-SemiBold.otf", 38)
-def center(text, font, y, fill="white"):
-    for i, line in enumerate(text.split("\\n")):
-        tw = d.textlength(line, font=font)
-        d.text(((1080 - tw) / 2, y + i * int(font.size * 1.35)), line, font=font, fill=fill)
-lines = title.count("\\n") + 1
-center(title, T, y0 - 120 - (lines - 1) * 97)
-center(sub, S, y0 + fg.height + 50)
-center(bottom.replace("📍 ", ""), B, 1920 - 260)
-bg.save(f"story_text/{pid}.jpg", quality=90)
-print(f"story_text/{pid}.jpg")
+"""Story image with elegant text.
+python3 tools/story_text.py <id> "<kor title, \\n ok>" "<sub>" ["<eng line>"] [src_path]
+Uses feed/<id>.jpg unless src_path is given. Portrait sources fill 9:16; wide ones sit on a blurred backdrop."""
+import sys, os, importlib.util
+from PIL import Image, ImageOps, ImageFilter
+H = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, H)
+import typo
+sp = importlib.util.spec_from_file_location("enh", os.path.join(H, "enhance.py")); E = importlib.util.module_from_spec(sp); sp.loader.exec_module(E)
+pid, kor, sub = sys.argv[1], sys.argv[2].replace("\\n", "\n"), sys.argv[3]
+eng = sys.argv[4] if len(sys.argv) > 4 and sys.argv[4] else "CASA32, Cheongpyeong"
+src = sys.argv[5] if len(sys.argv) > 5 else f"feed/{pid}.jpg"
+im = E.retouch(ImageOps.exif_transpose(Image.open(src)))
+w, h = im.size
+if h / w >= 1.2:
+    bg = E.fit(im, 1080, 1920); pos = "low"
+else:
+    bg = E.fit(im, 1080, 1920).filter(ImageFilter.GaussianBlur(40))
+    bg = Image.blend(bg, Image.new("RGB", bg.size, (0, 0, 0)), 0.3)
+    fg = im.resize((1000, int(1000 * h / w)), Image.LANCZOS); bg.paste(fg, (40, 560)); pos = "bottom"
+out = Image.alpha_composite(bg.convert("RGBA"), typo.make(eng, kor, sub or None, pos, bg=bg)).convert("RGB")
+os.makedirs("story_text", exist_ok=True); out.save(f"story_text/{pid}.jpg", quality=92); print(f"story_text/{pid}.jpg")

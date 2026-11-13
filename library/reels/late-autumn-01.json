@@ -1,0 +1,46 @@
+{
+ "raw_root": "/tmp/claude-0/-home-user/29d6f768-046a-5e6a-abe4-d6ce26849069/scratchpad/raw",
+ "segments": [
+  {
+   "type": "photo",
+   "path": "photos/KakaoTalk_20261113_124637229_03.jpg",
+   "dur": 3.8,
+   "eng": "Late autumn, Cheongpyeong",
+   "kor": "가을의 끝자락,\n청평호에서",
+   "focus_x": 0.4
+  },
+  {
+   "type": "video",
+   "path": "videos/KakaoTalk_20261113_124704748.mp4",
+   "start": 1,
+   "dur": 4,
+   "eng": "Poolside afternoon",
+   "kor": "햇살이 머무는\n풀사이드"
+  },
+  {
+   "type": "video",
+   "path": "videos/KakaoTalk_20261113_124100477.mp4",
+   "start": 0.5,
+   "dur": 4,
+   "eng": "Golden hour",
+   "kor": "해 질 무렵,\n호수 위의 빛"
+  },
+  {
+   "type": "video",
+   "path": "videos/KakaoTalk_20261113_125811283.mp4",
+   "start": 9.5,
+   "dur": 5,
+   "eng": "Warm water, cool air",
+   "kor": "쌀쌀할수록\n더 따뜻한 물",
+   "sub": "사계절 30–32°C 온수 인피니티풀"
+  },
+  {
+   "type": "photo",
+   "path": "photos/KakaoTalk_20261113_130319974_03.jpg",
+   "dur": 3.8,
+   "eng": "Good night",
+   "kor": "오늘 밤은\nCASA32에서",
+   "sub": "가평 청평호"
+  }
+ ]
+}
