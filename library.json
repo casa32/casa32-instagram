@@ -70,7 +70,7 @@
       ],
       "posted": null,
       "used": null,
-      "season": "winter: only Dec–Feb and only after real snow",
+      "season": "winter: as current content only Dec–Feb after real snow; BEFORE that OK as a 'winter teaser' about once a week, captioned as 다가올 겨울/지난겨울 CASA32/겨울 예약 오픈 + 선예약 유도 (평일 홈페이지 예약 14시 레이트 체크아웃, 프로필 링크). Never claim it's snowing now.",
       "built": "library/carousel/winter-pool/"
     },
     {
@@ -367,7 +367,7 @@
       ],
       "posted": null,
       "used": null,
-      "season": "winter: only Dec–Feb and only after real snow",
+      "season": "winter: as current content only Dec–Feb after real snow; BEFORE that OK as a 'winter teaser' about once a week, captioned as 다가올 겨울/지난겨울 CASA32/겨울 예약 오픈 + 선예약 유도 (평일 홈페이지 예약 14시 레이트 체크아웃, 프로필 링크). Never claim it's snowing now.",
       "built": "library/carousel/collab-winter/",
       "note": "screen-recording quality (upscaled from 900px); prefer as carousel/reel filler, not cover"
     }
@@ -390,7 +390,7 @@
         "videos/KakaoTalk_20261113_124027091.mp4"
       ],
       "used": null,
-      "season": "winter: only after real snow"
+      "season": "winter: as current content only Dec–Feb after real snow; BEFORE that OK as a 'winter teaser' about once a week, captioned as 다가올 겨울/지난겨울 CASA32/겨울 예약 오픈 + 선예약 유도 (평일 홈페이지 예약 14시 레이트 체크아웃, 프로필 링크). Never claim it's snowing now."
     },
     {
       "id": "summer-pool-01",
@@ -403,5 +403,47 @@
       "used": null
     }
   ],
-  "excluded": "Photos/videos with faces (has_people) are not in sets yet; sauna shots excluded (don't advertise sauna); photo with 'EXPERIENCE BUSAN' sign excluded; selfies excluded. Video KakaoTalk_20261113_124100477.mp4 shows a child at 14-21s although flagged has_people=false; use only 0-12s or 40s+."
+  "excluded": "Photos/videos with faces (has_people) are not in sets yet; sauna shots excluded (don't advertise sauna); photo with 'EXPERIENCE BUSAN' sign excluded; selfies excluded. Video KakaoTalk_20261113_124100477.mp4 shows a child at 14-21s although flagged has_people=false; use only 0-12s or 40s+.",
+  "clips": [
+    {
+      "id": "collab-winter",
+      "desc": "공동작업 게시물(DFfp61wyF7Z) 화면녹화에서 자른 무음 영상 8개 (1080x1350, 보정). 01 멀리 뒷모습 인물, 03 멀리 수영하는 사람(얼굴 안 보임). 02 김 오르는 온수풀 12s, 05 기포, 07·08 청평호 팬",
+      "clips": [
+        {
+          "path": "library/clips/collab-winter/01.mp4",
+          "sha256": "edf1a57e30a3a5970f4de9c573cd918c74400dad8d021160fbc39d109648655b"
+        },
+        {
+          "path": "library/clips/collab-winter/02.mp4",
+          "sha256": "e5de4f37e41cc473680a99686b7caa02932c7092589c44b2bcebe95c99262192"
+        },
+        {
+          "path": "library/clips/collab-winter/03.mp4",
+          "sha256": "324e662a4275dcddf30729889a8a37a4eccd95bd7e064a301337fb465d40a768"
+        },
+        {
+          "path": "library/clips/collab-winter/04.mp4",
+          "sha256": "6d16c6a81beba8b476612326811794238364d28ec57a3a2d7bb03119d1ea91ab"
+        },
+        {
+          "path": "library/clips/collab-winter/05.mp4",
+          "sha256": "1844704f9a72816597ce125d2624d1009d79981ad4275248d45e29d967685d59"
+        },
+        {
+          "path": "library/clips/collab-winter/06.mp4",
+          "sha256": "54e8a190ea509c22b7bdfc71f8dd8a96ca20c829bad5b3b27205e910c56ba3a6"
+        },
+        {
+          "path": "library/clips/collab-winter/07.mp4",
+          "sha256": "411345a0cb65e6d6f7cf00ae0c4ab3dd135d5322cf009b106943e6c24109fb4a"
+        },
+        {
+          "path": "library/clips/collab-winter/08.mp4",
+          "sha256": "ef30a15f13648a16d53c2b5f14f60dd09e36895ff64e66e24d2639fea9a1437d"
+        }
+      ],
+      "season": "winter: as current content only Dec–Feb after real snow; BEFORE that OK as a 'winter teaser' about once a week, captioned as 다가올 겨울/지난겨울 CASA32/겨울 예약 오픈 + 선예약 유도 (평일 홈페이지 예약 14시 레이트 체크아웃, 프로필 링크). Never claim it's snowing now.",
+      "use": "reel segments via tools/make_reel.py (type video)"
+    }
+  ]
 }
