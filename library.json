@@ -319,6 +319,57 @@
       "posted": null,
       "used": null,
       "season": "spring–autumn"
+    },
+    {
+      "id": "collab-winter",
+      "desc": "공동작업 게시물(DFfp61wyF7Z) 화면녹화에서 추출: 눈 덮인 산, 온수 인피니티풀, 얼음 낀 청평호. 01·04는 멀리 뒷모습 인물(얼굴 안 보임)",
+      "photos": [
+        {
+          "path": "library/carousel/collab-winter/01.jpg",
+          "sha256": "0403fac835ffb9331dcdc1d5c108b7e3292f017a1fa076cf944dda69270b1d97",
+          "source": "screen recording of collab post instagram.com/p/DFfp61wyF7Z"
+        },
+        {
+          "path": "library/carousel/collab-winter/02.jpg",
+          "sha256": "2d391136b92ced15bb9574a8b8e3b3cb9854a823cdf8a6fc483ff9b8cb40a421",
+          "source": "screen recording of collab post instagram.com/p/DFfp61wyF7Z"
+        },
+        {
+          "path": "library/carousel/collab-winter/03.jpg",
+          "sha256": "506449709f1c3e2d3cbca2f459f35e0326aa4eebebc075abe6c461f166a1fc08",
+          "source": "screen recording of collab post instagram.com/p/DFfp61wyF7Z"
+        },
+        {
+          "path": "library/carousel/collab-winter/04.jpg",
+          "sha256": "f7222c2aca74f65396edbfe231d5e71fdbe8183a5af366dac255481e5a8820c8",
+          "source": "screen recording of collab post instagram.com/p/DFfp61wyF7Z"
+        },
+        {
+          "path": "library/carousel/collab-winter/05.jpg",
+          "sha256": "39747742c924ab7452018f2efcde5755f9d72a7d7131e71a300b48b12c0ac840",
+          "source": "screen recording of collab post instagram.com/p/DFfp61wyF7Z"
+        },
+        {
+          "path": "library/carousel/collab-winter/06.jpg",
+          "sha256": "b58a4bb20f8902b08cf9098e06dda0e12c5081919a06ac80e7736b2c3a5aaf32",
+          "source": "screen recording of collab post instagram.com/p/DFfp61wyF7Z"
+        },
+        {
+          "path": "library/carousel/collab-winter/07.jpg",
+          "sha256": "d55340815785b92fbe756d4cbf78bd61ee8f18d3d589efed09e97cac3bedba53",
+          "source": "screen recording of collab post instagram.com/p/DFfp61wyF7Z"
+        },
+        {
+          "path": "library/carousel/collab-winter/08.jpg",
+          "sha256": "077f300f9fa2a6d5218c40417c7011a6ff141cbd17f75449db1421b50908ada1",
+          "source": "screen recording of collab post instagram.com/p/DFfp61wyF7Z"
+        }
+      ],
+      "posted": null,
+      "used": null,
+      "season": "winter: only Dec–Feb and only after real snow",
+      "built": "library/carousel/collab-winter/",
+      "note": "screen-recording quality (upscaled from 900px); prefer as carousel/reel filler, not cover"
     }
   ],
   "reels": [
