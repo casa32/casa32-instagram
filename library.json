@@ -403,7 +403,10 @@
       "used": null
     }
   ],
-  "excluded": "Photos/videos with faces (has_people) are not in sets yet; sauna shots excluded (don't advertise sauna); photo with 'EXPERIENCE BUSAN' sign excluded; selfies excluded. Video KakaoTalk_20261113_124100477.mp4 shows a child at 14-21s although flagged has_people=false; use only 0-12s or 40s+.",
+  "excluded": [
+    "Photos/videos with faces (has_people) are not in sets yet; sauna shots excluded (don't advertise sauna); photo with 'EXPERIENCE BUSAN' sign excluded; selfies excluded. Video KakaoTalk_20261113_124100477.mp4 shows a child at 14-21s although flagged has_people=false; use only 0-12s or 40s+.",
+    "DO NOT POST (import thread 2026-11-13): IMG_3087 (real name on banner), KakaoTalk_20261113_130524322, KakaoTalk_20261113_130519529 (crowd faces), KakaoTalk_20261113_130533048_15 (business doc); videos 124022612, 124048205, 125746524 (faces). Snow clips 135335711/135340877 = winter teaser material."
+  ],
   "clips": [
     {
       "id": "collab-winter",
