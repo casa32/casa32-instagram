@@ -445,5 +445,6 @@
       "season": "winter: as current content only Dec–Feb after real snow; BEFORE that OK as a 'winter teaser' about once a week, captioned as 다가올 겨울/지난겨울 CASA32/겨울 예약 오픈 + 선예약 유도 (평일 홈페이지 예약 14시 레이트 체크아웃, 프로필 링크). Never claim it's snowing now.",
       "use": "reel segments via tools/make_reel.py (type video)"
     }
-  ]
+  ],
+  "winter_teaser_log": []
 }
