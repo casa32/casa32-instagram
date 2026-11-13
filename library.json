@@ -1,0 +1,305 @@
+{
+ "note": "Raw files live in the private project folder /mnt/project-files/instagram/raw-casa-photos/ (path below is relative to it). Process at post time with tools/enhance.py (+ blur_faces.py), push only processed files to library/.",
+ "carousels": [
+  {
+   "id": "winter-pool",
+   "desc": "겨울 온수 인피니티풀 (눈, 김)",
+   "photos": [
+    {
+     "path": "photos/KakaoTalk_20261113_125734003_08.jpg",
+     "sha256": "e14ea2d90fb46682c48d2ae1a7687b828d1769a2b4658b76e74e30e3bad093d9"
+    },
+    {
+     "path": "photos/KakaoTalk_20261113_125734003_09.jpg",
+     "sha256": "46d3bf3aad85a424d13729da020598a0333f11eff51784020d6676baaea9da72"
+    },
+    {
+     "path": "photos/KakaoTalk_20261113_125734003_05.jpg",
+     "sha256": "d7f663f669c05bac76daeee9dfc5fb8eac48b19092181a964d1cca4504498397"
+    },
+    {
+     "path": "photos/KakaoTalk_20261113_125734003_11.jpg",
+     "sha256": "b6b0daf600089fe28bd0b8ff9f4c3351066e963a1fa4aafe9df5ad824b154d16"
+    },
+    {
+     "path": "photos/KakaoTalk_20261113_125734003_14.jpg",
+     "sha256": "28b1083ccbf33b56919f2e984c51e685bd063e668156231b9d13e657d3f6e944"
+    },
+    {
+     "path": "photos/KakaoTalk_20261113_125734003_03.jpg",
+     "sha256": "2d65c7a64ee4fb42bf9a5bb8aa70e1cc3d0342c6e4e5b9e7a8c2ae1e2615445e"
+    },
+    {
+     "path": "photos/KakaoTalk_20261113_125734003_07.jpg",
+     "sha256": "f2025900dbd503b9f999993b59498bc19bb4b0f428fb01e69b2d113c26de21e1"
+    }
+   ],
+   "posted": "2026-11-13-built",
+   "used": null
+  },
+  {
+   "id": "loft-room",
+   "desc": "복층 로프트 객실",
+   "photos": [
+    {
+     "path": "photos/KakaoTalk_20261113_125121418_02.jpg",
+     "sha256": "592c603f856d71e1f47ff2b149e5f4d71cdffea5cd315f2608af306fce92b9d6"
+    },
+    {
+     "path": "photos/KakaoTalk_20261113_125121418_06.jpg",
+     "sha256": "24a61b8d0345e9996dfce5bd325803267fd30045de42f949bb6da3ccd0790cf5"
+    },
+    {
+     "path": "photos/KakaoTalk_20261113_125121418_08.jpg",
+     "sha256": "53754a162d21b792b7940f621e3da4066db120e539af0c4562e52d4624f7f9a3"
+    },
+    {
+     "path": "photos/KakaoTalk_20261113_125121418_04.jpg",
+     "sha256": "7ac13a2e45c1fa62c0e4ea99f39443c0903d3e9b90ec71bc9dffab8f94c4d903"
+    },
+    {
+     "path": "photos/KakaoTalk_20261113_125121418_07.jpg",
+     "sha256": "14892230aa86c299cabdeebebc8012041ad509ea6c032b4223f3267c4f4ec377"
+    },
+    {
+     "path": "photos/KakaoTalk_20261113_125121418_05.jpg",
+     "sha256": "f42b6c835730220aa6ed4199c01bccf6cbce856b6c4407b8903fc6d348d6249f"
+    },
+    {
+     "path": "photos/KakaoTalk_20261113_125121418_03.jpg",
+     "sha256": "fb41703f4a456fa468fd4cbe922354c043771905a53f5964f40246f9dc7f4d12"
+    },
+    {
+     "path": "photos/KakaoTalk_20261113_125121418_09.jpg",
+     "sha256": "84f22c8702f578aba242d0bf9cf44d0d69e9c151cf1e50be36df7d7b81110490"
+    }
+   ],
+   "posted": null,
+   "used": null
+  },
+  {
+   "id": "day-to-night",
+   "desc": "낮에서 밤까지 인피니티풀",
+   "photos": [
+    {
+     "path": "photos/KakaoTalk_20261113_125121418_13.jpg",
+     "sha256": "aa7d24f5e8521ea332a2281bdae6605e14402ddda99ccf08047b66fc6a00f0e1"
+    },
+    {
+     "path": "photos/KakaoTalk_20261113_125121418_15.jpg",
+     "sha256": "fa3d99191ac658b3059bf2049ba7c06158a10442dd111becc3d97cd08cb8705d"
+    },
+    {
+     "path": "photos/KakaoTalk_20261113_125121418_17.jpg",
+     "sha256": "2c598f123663b0cd541595ac1c033bb9995d30cea13d93dfdaad51ced94fb6d0"
+    },
+    {
+     "path": "photos/KakaoTalk_20261113_124658151_15.jpg",
+     "sha256": "5d254118bbd3bdd9310169e4e2fccfb252ed4795b7d68ba8be12508d317f5f66"
+    },
+    {
+     "path": "photos/KakaoTalk_20261113_125121418_16.jpg",
+     "sha256": "ba3781b232dfef87a0754d6dfae574c52b96e00e51fdc509c299640d63f99ef8"
+    },
+    {
+     "path": "photos/KakaoTalk_20261113_125121418.jpg",
+     "sha256": "0d5a19cb94ccbe4e79bb48d8ddd98435e9fe7ff116d87c3f58eee3c8df361069"
+    },
+    {
+     "path": "photos/KakaoTalk_20261113_130319974_03.jpg",
+     "sha256": "2a982496f8bc97c6514e21b5db6cc3a653bd10f5129c6604f10ddbc81a7822ba"
+    }
+   ],
+   "posted": null,
+   "used": null
+  },
+  {
+   "id": "misty-morning",
+   "desc": "안개 낀 청평호 아침",
+   "photos": [
+    {
+     "path": "photos/KakaoTalk_20261113_124011946_02.jpg",
+     "sha256": "fcd77f08431ff8b4b1aa48baac05c7d24ea4bc3f200a0245a8b45a942d4b6912"
+    },
+    {
+     "path": "photos/KakaoTalk_20261113_124011946_01.jpg",
+     "sha256": "a6b1176c4fe728fb26801e34fdf2b9e79b3aa050349ae5f32f4efddf3f8931d8"
+    },
+    {
+     "path": "photos/KakaoTalk_20261113_124011946_03.jpg",
+     "sha256": "6f855bfa6d48265d55bf0988bf0de855c04687af71d4db5979ed1cce4b344134"
+    },
+    {
+     "path": "photos/KakaoTalk_20261113_124658151.jpg",
+     "sha256": "c5832da0e8359e9e209e77dc0bafe3b9dcee74dd3ff2289f41be50ff5df608ea"
+    },
+    {
+     "path": "photos/KakaoTalk_20261113_124658151_01.jpg",
+     "sha256": "7c317753b29e73ec7e1d92f4f218e05fff930db6494cacf9cb2e16ab4498bce7"
+    }
+   ],
+   "posted": null,
+   "used": null
+  },
+  {
+   "id": "white-room",
+   "desc": "화이트톤 객실",
+   "photos": [
+    {
+     "path": "photos/KakaoTalk_20261113_124637229.jpg",
+     "sha256": "aa695239306bb6de9a6b0ee17da11f2862bbac70e656f19eaa1b11abdacd0126"
+    },
+    {
+     "path": "photos/KakaoTalk_20261113_124637229_01.jpg",
+     "sha256": "a736cac9daecbb779fd7a2741485ab06d6c6d0d51a4c2b437232b8b548d9a6c0"
+    },
+    {
+     "path": "photos/KakaoTalk_20261113_124637229_02.jpg",
+     "sha256": "468bfa60cfe3cf3b991f41dee046e427fa19430b839c15a9736b6d2be0dd02b4"
+    },
+    {
+     "path": "photos/KakaoTalk_20261113_125121418_10.jpg",
+     "sha256": "d792507dff6a724a3a08abac6f9cb23562e8d2d2da78438b991b829851a1dfe4"
+    }
+   ],
+   "posted": null,
+   "used": null
+  },
+  {
+   "id": "summer-pool",
+   "desc": "여름 인피니티풀과 외관",
+   "photos": [
+    {
+     "path": "photos/KakaoTalk_20261113_124658151_13.jpg",
+     "sha256": "335bc42a46bc184dcabe1679fbce1df02bc00aeb0be557a812cf9c8a6127c667"
+    },
+    {
+     "path": "photos/KakaoTalk_20261113_124658151_04.jpg",
+     "sha256": "8c876bad7f4920c6df9b3b7024abf63206b3d803dd33c49b0e9560a42be8a3e3"
+    },
+    {
+     "path": "photos/KakaoTalk_20261113_124658151_12.jpg",
+     "sha256": "839f2cee4fd6b45aff91b365a5296f72af29324b85aa68b99c5b8170dc493d9a"
+    },
+    {
+     "path": "photos/KakaoTalk_20261113_124658151_09.jpg",
+     "sha256": "86afde105dbdfa2d2389751d7164b043b52953a6f291c90b2939678c51013b7f"
+    },
+    {
+     "path": "photos/KakaoTalk_20261113_124658151_07.jpg",
+     "sha256": "06c1a8ce67a1499806315bd7914a1009d3921987506f90b4e4ad4c4748dd9911"
+    },
+    {
+     "path": "photos/KakaoTalk_20261113_124658151_10.jpg",
+     "sha256": "cf3c510908f8f0709eab73bfdbf292e14b7cbb385a456ccf8cac31af4917fa86"
+    },
+    {
+     "path": "photos/KakaoTalk_20261113_125121418_01.jpg",
+     "sha256": "6b23a635c58261b34c75469ad3d81a59ee86a3d9913e5729da13437843dc65bc"
+    },
+    {
+     "path": "photos/KakaoTalk_20261113_124658151_06.jpg",
+     "sha256": "67b4b99f57af6ad3fda0b11964bdf9c89f99fd87b8457f1e838f2670bae4274c"
+    }
+   ],
+   "posted": null,
+   "used": null
+  },
+  {
+   "id": "autumn-exterior",
+   "desc": "가을 외관과 풀",
+   "photos": [
+    {
+     "path": "photos/KakaoTalk_20261113_124637229_03.jpg",
+     "sha256": "0d35a3e2db511bcb2495bd46d4bae7774af34c2140572bb801e44fa07d590446"
+    },
+    {
+     "path": "photos/KakaoTalk_20261113_124637229_05.jpg",
+     "sha256": "b76b9bf30f1a8be0ddb2259f9a86c44dde94e3378d38800e41243817fa80d6a1"
+    },
+    {
+     "path": "photos/KakaoTalk_20261113_124658151_02.jpg",
+     "sha256": "4bb15f6d49b78d477c0b47a528b2de9279a0fc6fbf8925eb69384370e8c39a75"
+    },
+    {
+     "path": "photos/KakaoTalk_20261113_124658151_11.jpg",
+     "sha256": "31da5d8fc1a91a0bf564f634aec44a2ff8f67a690e1daa26afa84c67287b62a2"
+    },
+    {
+     "path": "photos/KakaoTalk_20261113_125121418_18.jpg",
+     "sha256": "f8c6d5211310ab5429166f405ea468aa9739dbb25a619cffbdfc2144c152d3bc"
+    },
+    {
+     "path": "photos/KakaoTalk_20261113_125121418_19.jpg",
+     "sha256": "fa8bfd87a9afea8e7178cd2f50f81f8d0928b32f2c79b9ba29deb4dfd00ac06b"
+    },
+    {
+     "path": "photos/KakaoTalk_20261113_125121418_14.jpg",
+     "sha256": "385c1a781dbb12bf4e7c250d044136c1b56d008420bedaa3f3b095914f99e228"
+    }
+   ],
+   "posted": null,
+   "used": null
+  },
+  {
+   "id": "terrace-bbq",
+   "desc": "테라스 바베큐 저녁",
+   "photos": [
+    {
+     "path": "photos/KakaoTalk_20241003_142232083_21.jpg",
+     "sha256": "0303d7fe22199f1e60816688065fcb0bc2ac1671650c55b6696dc05772d2b723"
+    },
+    {
+     "path": "photos/KakaoTalk_20241003_142232083_03.jpg",
+     "sha256": "f545e66d73b6ade9ac68e57eb2696e3f522beae1f0beb6e7d43373e624d098de"
+    },
+    {
+     "path": "photos/KakaoTalk_20241003_142232083.jpg",
+     "sha256": "7c3d32783bf9663431295e37ced2d6c7ce116310dc172da6efbd2af57e198f5c"
+    },
+    {
+     "path": "photos/KakaoTalk_20241003_142232083_01.jpg",
+     "sha256": "9f1f23cff136f1deede8c6be96bfcd3da0cc9500a978af4a7d641c8bc3166f69"
+    },
+    {
+     "path": "photos/KakaoTalk_20241003_142232083_02.jpg",
+     "sha256": "c50a6123c713023a298dfc3b70b2c87e5b5d88e31ee35d9db865ccf9d633d7b1"
+    },
+    {
+     "path": "photos/KakaoTalk_20241003_142232083_04.jpg",
+     "sha256": "1ab968d28fea84c875fdf70d37146e299a9506045204a99833e2582000a82e8a"
+    },
+    {
+     "path": "photos/KakaoTalk_20241003_142232083_12.jpg",
+     "sha256": "acbfbc6cb5b759b0a801328edadb57e3abdc3757ab69a19d4108a5b968af5e4c"
+    }
+   ],
+   "posted": null,
+   "used": null
+  }
+ ],
+ "reels": [
+  {
+   "id": "winter-pool-01",
+   "desc": "겨울 청평호와 김 나는 온수풀",
+   "file": "library/reels/winter-pool-01.mp4",
+   "clips": [
+    "videos/KakaoTalk_20261113_125811283.mp4",
+    "videos/KakaoTalk_20261113_125803661.mp4",
+    "videos/KakaoTalk_20261113_124027091.mp4"
+   ],
+   "used": null
+  },
+  {
+   "id": "summer-pool-01",
+   "desc": "여름 풀사이드 패닝",
+   "clips": [
+    "videos/KakaoTalk_20261113_124704748.mp4",
+    "videos/KakaoTalk_20261113_124710558.mp4",
+    "videos/KakaoTalk_20261113_124100477.mp4"
+   ],
+   "used": null
+  }
+ ],
+ "excluded": "Photos/videos with faces (has_people) are not in sets yet; sauna shots excluded (don't advertise sauna); photo with 'EXPERIENCE BUSAN' sign excluded; selfies excluded."
+}
