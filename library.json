@@ -371,6 +371,37 @@
       "season": "winter: as current content only Dec–Feb after real snow; BEFORE that OK as a 'winter teaser' about once a week, captioned as 다가올 겨울/지난겨울 CASA32/겨울 예약 오픈 + 선예약 유도 (평일 홈페이지 예약 14시 레이트 체크아웃, 프로필 링크). Never claim it's snowing now.",
       "built": "library/carousel/collab-winter/",
       "note": "screen-recording quality (upscaled from 900px); prefer as carousel/reel filler, not cover"
+    },
+    {
+      "id": "autumn-white",
+      "desc": "풀사이드 선베드, 안개 낀 아침 풀, 화이트톤 거실·다이닝 (retouch2)",
+      "photos": [
+        {
+          "path": "library/carousel/autumn-white/01.jpg",
+          "sha256": "8b8d1822d446a8b1049283c6d9a20eba586c285a6b1bd79bbd6138fd36d78573"
+        },
+        {
+          "path": "library/carousel/autumn-white/02.jpg",
+          "sha256": "998afd9440b30dad1c1f1bf207c258b33901374bceb7f516bd803ae218cc865b"
+        },
+        {
+          "path": "library/carousel/autumn-white/03.jpg",
+          "sha256": "4c5bdd5e5d3f586f64bb335b1460496121f5f63244e5bdb2d2e050e23923ff16"
+        },
+        {
+          "path": "library/carousel/autumn-white/04.jpg",
+          "sha256": "cb7235ae2aac2551351ae3d78d55bb5d8b4d0c91ae20dcbaa0944f20c0e3015c"
+        }
+      ],
+      "sources": [
+        "124658151_02",
+        "124011946_02",
+        "124637229",
+        "124637229_01"
+      ],
+      "season": "any (no strong foliage)",
+      "built": "library/carousel/autumn-white/",
+      "used": "2026-11-17"
     }
   ],
   "reels": [
