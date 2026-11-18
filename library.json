@@ -111,9 +111,9 @@
         }
       ],
       "posted": null,
-      "used": null,
+      "used": "2026-11-18",
       "season": "any",
-      "hold": "DO NOT USE (2026-11-16): this is the 로얄 프라이빗 풀빌라 (private backyard pool); replaced by hand-retouched draft in /mnt/project-files/instagram/draft-2026-11-17-royal/ awaiting user OK (thread 'Review Instagram reactions and polish posts'). Also skip raw batches KakaoTalk_20261113_125121418 / _130502004."
+      "hold": "RETIRED: this villa was posted 2026-11-18 as royal-pool-villa (p/Df3Y-6xiICp). Do not reuse."
     },
     {
       "id": "day-to-night",
@@ -402,6 +402,16 @@
       "season": "any (no strong foliage)",
       "built": "library/carousel/autumn-white/",
       "used": "2026-11-17"
+    },
+    {
+      "id": "royal-pool-villa",
+      "desc": "로얄 프라이빗 풀빌라 (raw batch KakaoTalk_20261113_130502004_*)",
+      "sources": "KakaoTalk_20261113_130502004_*",
+      "built": "branch claude/project-thread-87h23f: library/carousel/royal-pool-villa/",
+      "used": "2026-11-18",
+      "permalink": "https://www.instagram.com/p/Df3Y-6xiICp/",
+      "season": "any",
+      "note": "posted by another thread 11:04 KST; do not repeat these photos in feed carousels"
     }
   ],
   "reels": [
