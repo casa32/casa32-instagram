@@ -527,5 +527,13 @@
   "story_used": "2026-11-13",
   "story_text": "곧, 눈 내린 청평호 / 겨울 예약 오픈 · 프로필 링크에서 / Winter is coming soon",
   "used": null
+ },
+ {
+  "id": "wt_125734003_14",
+  "desc": "겨울 인피니티풀 눈 (winter teaser)",
+  "source": "library/carousel/winter-pool/05.jpg",
+  "sha256": "89ebe20d36c6d2c613fdc64524e61ad300c444750f920a1bfe3a5025354d44a9",
+  "story_text": "눈은 아직입니다. 예약은 지금입니다. / 팔로우하시면 첫눈 소식 먼저 드릴게요 / Reserve the snow.",
+  "story_used": "2026-11-19"
  }
 ]
