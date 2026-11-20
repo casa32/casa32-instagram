@@ -443,12 +443,27 @@
     "videos/KakaoTalk_20261113_124100477.mp4"
    ],
    "used": null
+  },
+  {
+   "id": "late-autumn-02",
+   "desc": "노을→블루아워→야간 인피니티풀 (19s). NOTE: same sunset/night clips as 11-18 hook reel",
+   "file": "library/reels/late-autumn-02.mp4",
+   "used": "2026-11-20",
+   "permalink": "reel/Df8aZ63gX6O"
+  },
+  {
+   "id": "misty-to-afternoon-01",
+   "desc": "안개 아침→가을 오후 풀→선베드→팔로우 엔딩 (19s, photo reel)",
+   "file": "library/reels/misty-to-afternoon-01.mp4",
+   "used": null,
+   "season": "late autumn"
   }
  ],
  "excluded": [
   "Photos/videos with faces (has_people) are not in sets yet; sauna shots excluded (don't advertise sauna); photo with 'EXPERIENCE BUSAN' sign excluded; selfies excluded. Video KakaoTalk_20261113_124100477.mp4 shows a child at 14-21s although flagged has_people=false; use only 0-12s or 40s+.",
   "DO NOT POST (import thread 2026-11-13): IMG_3087 (real name on banner), KakaoTalk_20261113_130524322, KakaoTalk_20261113_130519529 (crowd faces), KakaoTalk_20261113_130533048_15 (business doc); videos 124022612, 124048205, 125746524 (faces). Snow clips 135335711/135340877 = winter teaser material.",
-  "RECENTLY USED (2026-11-18, royal pool villa posted p/Df3Y-6xiICp): avoid raw batches KakaoTalk_20261113_125121418_* and KakaoTalk_20261113_130502004_* in feed for ~4 weeks. FACT: the villa's private backyard pool is heated in winter ONLY by advance reservation (+₩200,000); never imply it is heated by default (the 30–32°C claim is only for the main infinity pool)."
+  "RECENTLY USED (2026-11-18, royal pool villa posted p/Df3Y-6xiICp): avoid raw batches KakaoTalk_20261113_125121418_* and KakaoTalk_20261113_130502004_* in feed for ~4 weeks. FACT: the villa's private backyard pool is heated in winter ONLY by advance reservation (+₩200,000); never imply it is heated by default (the 30–32°C claim is only for the main infinity pool).",
+  "Clips KakaoTalk_20241118_164740144 (sunset/night) and KakaoTalk_20261113_130130367 (night pool) used in reels 11-18 and 11-20; avoid in feed until mid-Dec."
  ],
  "clips": [
   {
