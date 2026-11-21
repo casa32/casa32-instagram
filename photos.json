@@ -536,5 +536,13 @@
   "sha256": "89ebe20d36c6d2c613fdc64524e61ad300c444750f920a1bfe3a5025354d44a9",
   "story_text": "눈은 아직입니다. 예약은 지금입니다. / 팔로우하시면 첫눈 소식 먼저 드릴게요 / Reserve the snow.",
   "story_used": "2026-11-19"
+ },
+ {
+  "id": "la_05",
+  "desc": "해질녘 인피니티풀 조명과 노을 (late-autumn carousel 05)",
+  "source": "library/carousel/late-autumn/05.jpg",
+  "sha256": "88391148328ae3856d03d2a90dadd5fa947cd590a86729c901cc179c1418fbac",
+  "story_text": "공기는 차갑게, 물은 따뜻하게. / 팔로우하시면 이벤트 소식 먼저 드려요 / Cold air, warm water.",
+  "story_used": "2026-11-21"
  }
 ]
