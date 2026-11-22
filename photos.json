@@ -58,7 +58,8 @@
   "story": "https://raw.githubusercontent.com/casa32/casa32-instagram/main/story/mv_06.jpg",
   "quality": "high",
   "used": null,
-  "story_text": "https://raw.githubusercontent.com/casa32/casa32-instagram/main/story_text/mv_06.jpg"
+  "story_text": "소파는 호수 쪽으로, 일정은 비워 두세요. / 마음에 드셨다면 하트 하나 부탁드려요 / Lake view, no agenda.",
+  "story_used": "2026-11-20"
  },
  {
   "id": "mv_07",
@@ -527,5 +528,21 @@
   "story_used": "2026-11-13",
   "story_text": "곧, 눈 내린 청평호 / 겨울 예약 오픈 · 프로필 링크에서 / Winter is coming soon",
   "used": null
+ },
+ {
+  "id": "wt_125734003_14",
+  "desc": "겨울 인피니티풀 눈 (winter teaser)",
+  "source": "library/carousel/winter-pool/05.jpg",
+  "sha256": "89ebe20d36c6d2c613fdc64524e61ad300c444750f920a1bfe3a5025354d44a9",
+  "story_text": "눈은 아직입니다. 예약은 지금입니다. / 팔로우하시면 첫눈 소식 먼저 드릴게요 / Reserve the snow.",
+  "story_used": "2026-11-19"
+ },
+ {
+  "id": "la_05",
+  "desc": "해질녘 인피니티풀 조명과 노을 (late-autumn carousel 05)",
+  "source": "library/carousel/late-autumn/05.jpg",
+  "sha256": "88391148328ae3856d03d2a90dadd5fa947cd590a86729c901cc179c1418fbac",
+  "story_text": "공기는 차갑게, 물은 따뜻하게. / 팔로우하시면 이벤트 소식 먼저 드려요 / Cold air, warm water.",
+  "story_used": "2026-11-21"
  }
 ]
