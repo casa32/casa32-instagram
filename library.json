@@ -463,8 +463,9 @@
    "id": "misty-to-afternoon-01",
    "desc": "안개 아침→가을 오후 풀→선베드→팔로우 엔딩 (19s, photo reel)",
    "file": "library/reels/misty-to-afternoon-01.mp4",
-   "used": null,
-   "season": "late autumn"
+   "used": "2026-11-24",
+   "season": "late autumn",
+   "media_id": "18130364461848835"
   }
  ],
  "excluded": [
@@ -531,5 +532,10 @@
    "kind": "feed",
    "media": "library/carousel/winter-teaser/"
   }
- ]
+ ],
+ "reel_schedule": {
+  "rule": "one reel every 3 days starting 2026-11-24 (user)",
+  "last_reel": "2026-11-24",
+  "next_due": "2026-11-27"
+ }
 }
