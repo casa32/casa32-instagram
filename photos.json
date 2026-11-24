@@ -545,5 +545,14 @@
   "sha256": "88391148328ae3856d03d2a90dadd5fa947cd590a86729c901cc179c1418fbac",
   "story_text": "공기는 차갑게, 물은 따뜻하게. / 팔로우하시면 이벤트 소식 먼저 드려요 / Cold air, warm water.",
   "story_used": "2026-11-21"
+ },
+ {
+  "id": "la_03",
+  "desc": "안개 낀 청평호 아침과 CASA 풀 (late-autumn 03)",
+  "source": "library/carousel/late-autumn/03.jpg",
+  "sha256": "421d350a39e6906b994345fe73d6d46ed4ae92b72ac0c2d7414ae5e2a96dc6e1",
+  "story_text": "아침 안개는 무료, 수영장은 32°C. / 팔로우해 두시면 이벤트 먼저 알려드려요 / Morning, in soft focus.",
+  "story_used": "2026-11-24",
+  "note": "11-23 run failed (API error); posted 11-24 09:05 KST"
  }
 ]
