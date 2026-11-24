@@ -71,7 +71,8 @@
    "posted": null,
    "used": null,
    "season": "winter: as current content only Dec–Feb after real snow; BEFORE that OK as a 'winter teaser' about once a week, captioned as 다가올 겨울/지난겨울 CASA32/겨울 예약 오픈 + 선예약 유도 (평일 홈페이지 예약 14시 레이트 체크아웃, 프로필 링크). Never claim it's snowing now.",
-   "built": "library/carousel/winter-pool/"
+   "built": "library/carousel/winter-pool/",
+   "note": "01,02,05,03 used in feed winter-teaser 2026-11-24; 04 (=_11) shows EXPERIENCE BUSAN tape: do not use"
   },
   {
    "id": "loft-room",
@@ -412,6 +413,13 @@
    "permalink": "https://www.instagram.com/p/Df3Y-6xiICp/",
    "season": "any",
    "note": "posted by another thread 11:04 KST; do not repeat these photos in feed carousels"
+  },
+  {
+   "id": "winter-teaser",
+   "desc": "겨울 티저 4장 (winter-pool 01·02·05·03 crop, 표지/팔로우 카드 텍스트)",
+   "built": "library/carousel/winter-teaser/",
+   "used": "2026-11-24",
+   "media_id": "18115237166463179"
   }
  ],
  "reels": [
@@ -517,6 +525,11 @@
    "date": "2026-11-19",
    "kind": "story",
    "media": "story_text/wt_125734003_14.jpg"
+  },
+  {
+   "date": "2026-11-24",
+   "kind": "feed",
+   "media": "library/carousel/winter-teaser/"
   }
  ]
 }
