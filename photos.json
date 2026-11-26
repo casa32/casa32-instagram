@@ -556,5 +556,12 @@
   "story_text": "아침 안개는 무료, 수영장은 32°C. / 팔로우해 두시면 이벤트 먼저 알려드려요 / Morning, in soft focus.",
   "story_used": "2026-11-24",
   "note": "11-23 run failed (API error); posted 11-24 09:05 KST"
+ },
+ {
+  "id": "rp_sunset_pool",
+  "source": "casa32-review-photos:official/yanolja_resort/대표_20240927_66f6bd71902464.41776045.jpg",
+  "sha256": "06a3288c7fdcb0fc9613793c0439985e6bb193cb2467dc285f9c25f7b8154e8f",
+  "story": "story/rp_sunset_pool.jpg",
+  "story_used": "2026-11-26"
  }
 ]
