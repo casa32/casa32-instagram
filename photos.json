@@ -563,5 +563,12 @@
   "sha256": "06a3288c7fdcb0fc9613793c0439985e6bb193cb2467dc285f9c25f7b8154e8f",
   "story": "story/rp_sunset_pool.jpg",
   "story_used": "2026-11-26"
+ },
+ {
+  "id": "rp_whirlpool_window",
+  "source": "casa32-review-photos:official/yeogi/20250811_c3a75090.jpg",
+  "sha256": "7edecd855ce01d6d240e4a52cbcc54a52e7c40477195da757c35c76968c3d53e",
+  "story": "story/rp_whirlpool_window.jpg",
+  "story_used": "2026-11-26"
  }
 ]
