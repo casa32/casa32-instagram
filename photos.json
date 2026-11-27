@@ -570,5 +570,17 @@
   "sha256": "7edecd855ce01d6d240e4a52cbcc54a52e7c40477195da757c35c76968c3d53e",
   "story": "story/rp_whirlpool_window.jpg",
   "story_used": "2026-11-26"
+ },
+ {
+  "id": "rp_warm_bedlamp",
+  "desc": "객실 침대와 스탠드 조명, 따뜻한 실내",
+  "source": "promo-library official/yanolja_resort/객실_20240927_66f6a4200d9a47.81278793.jpg",
+  "sha256": "380623f9d785bc2818ab07a71c62d7c17fc0f1fae280564d2ebc3633cc1974c1",
+  "feed": null,
+  "story": "https://raw.githubusercontent.com/casa32/casa32-instagram/main/story/rp_warm_bedlamp.jpg",
+  "quality": "medium",
+  "used": null,
+  "story_text": "https://raw.githubusercontent.com/casa32/casa32-instagram/main/story_text/rp_warm_bedlamp.jpg",
+  "story_used": "2026-11-27"
  }
 ]
