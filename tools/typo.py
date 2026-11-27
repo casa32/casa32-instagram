@@ -1,7 +1,7 @@
 """Elegant text overlays for CASA32 (1080x1920 RGBA, transparent).
 make(eng, kor, sub=None, pos="low") -> PIL RGBA image
- eng: small English italic line (Cormorant Garamond), e.g. "Late autumn, Cheongpyeong"
- kor: Korean title (Gowun Batang), use \n for 2 lines
+ eng: small English italic line (IBM Plex Sans KR Light), e.g. "Late autumn, Cheongpyeong"
+ kor: Korean title (IBM Plex Sans KR Medium; user chose 2026-11-27), use \n for 2 lines
  sub: Korean sub line (small, letter-spaced)
 Text sits inside Instagram's safe zone (clear of top bar and bottom UI)."""
 import os
@@ -19,9 +19,9 @@ def _spaced(draw, text, font, y, track, fill, W=1080):
     for c, w in zip(text, widths):
         draw.text((x, y), c, font=font, fill=fill); x += w + track
 def make(eng, kor, sub=None, pos="low", W=1080, H=1920, bg=None):
-    ENG = _f("CormorantGaramond-Italic.ttf", 50, 400)
-    KOR = _f("GowunBatang-Regular.ttf", 66)
-    SUB = _f("GowunBatang-Regular.ttf", 33)
+    ENG = _f("IBMPlexSansKR-Light.ttf", 34)
+    KOR = _f("IBMPlexSansKR-Medium.ttf", 62)
+    SUB = _f("IBMPlexSansKR-Regular.ttf", 32)
     BR = _f("CormorantGaramond.ttf", 30, 500)
     lines = kor.split("\n")
     block = 70 + len(lines) * 92 + (80 if sub else 0) + 40
