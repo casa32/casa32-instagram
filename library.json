@@ -523,6 +523,19 @@
    "cover": "library/reels/covers/lake-frontyard-01.jpg",
    "used": "2026-11-27",
    "note": "USER ANGRY 2026-11-27: summer boating footage posted in late Nov — season violation. Do NOT reuse; asked user to confirm deletion."
+  },
+  {
+   "id": "snow-swim-01",
+   "desc": "눈 오는 날 김 나는 온수풀 수영→눈 내리는 밤 숙소→설경 테라스 (15s), replacement for deleted boat reel",
+   "file": "library/reels/snow-swim-01.mp4",
+   "clips": [
+    "videos/KakaoTalk_20261113_125758633.mp4 @2.3-6.9",
+    "videos/KakaoTalk_20261113_135335711_1080p.mp4 @0.3-4.8",
+    "videos/KakaoTalk_20261113_135340877_1080p.mp4 @5-10.5"
+   ],
+   "cover": "library/reels/covers/snow-swim-01.jpg",
+   "used": "2026-11-27",
+   "season": "winter teaser (framed 지난겨울/올겨울도 곧)"
   }
  ],
  "excluded": [
@@ -589,7 +602,8 @@
    "date": "2026-11-24",
    "kind": "feed",
    "media": "library/carousel/winter-teaser/"
-  }
+  },
+  "2026-11-27 (reel)"
  ],
  "reel_schedule": {
   "rule": "one reel every 3 days starting 2026-11-24 (user)",
