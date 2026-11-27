@@ -521,14 +521,16 @@
     "casa32-review-photos:official/yanolja_resort/대표_20240927_66f6bd715e3f06.31550342.jpg"
    ],
    "cover": "library/reels/covers/lake-frontyard-01.jpg",
-   "used": "2026-11-27"
+   "used": "2026-11-27",
+   "note": "USER ANGRY 2026-11-27: summer boating footage posted in late Nov — season violation. Do NOT reuse; asked user to confirm deletion."
   }
  ],
  "excluded": [
   "Photos/videos with faces (has_people) are not in sets yet; sauna shots excluded (don't advertise sauna); photo with 'EXPERIENCE BUSAN' sign excluded; selfies excluded. Video KakaoTalk_20261113_124100477.mp4 shows a child at 14-21s although flagged has_people=false; use only 0-12s or 40s+.",
   "DO NOT POST (import thread 2026-11-13): IMG_3087 (real name on banner), KakaoTalk_20261113_130524322, KakaoTalk_20261113_130519529 (crowd faces), KakaoTalk_20261113_130533048_15 (business doc); videos 124022612, 124048205, 125746524 (faces). Snow clips 135335711/135340877 = winter teaser material.",
   "RECENTLY USED (2026-11-18, royal pool villa posted p/Df3Y-6xiICp): avoid raw batches KakaoTalk_20261113_125121418_* and KakaoTalk_20261113_130502004_* in feed for ~4 weeks. FACT: the villa's private backyard pool is heated in winter ONLY by advance reservation (+₩200,000); never imply it is heated by default (the 30–32°C claim is only for the main infinity pool).",
-  "Clips KakaoTalk_20241118_164740144 (sunset/night) and KakaoTalk_20261113_130130367 (night pool) used in reels 11-18 and 11-20; avoid in feed until mid-Dec."
+  "Clips KakaoTalk_20241118_164740144 (sunset/night) and KakaoTalk_20261113_130130367 (night pool) used in reels 11-18 and 11-20; avoid in feed until mid-Dec.",
+  "casa32-review-photos official/video/youtube/20250924_* and 20250725_* (boating, pool party = summer) — never post outside summer (user 2026-11-27)"
  ],
  "clips": [
   {
