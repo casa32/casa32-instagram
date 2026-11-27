@@ -420,6 +420,51 @@
    "built": "library/carousel/winter-teaser/",
    "used": "2026-11-24",
    "media_id": "18115237166463179"
+  },
+  {
+   "id": "late-checkout",
+   "title": "평일 체크아웃 14시 타임라인",
+   "slides": [
+    "library/carousel/late-checkout/01.jpg",
+    "library/carousel/late-checkout/02.jpg",
+    "library/carousel/late-checkout/03.jpg",
+    "library/carousel/late-checkout/04.jpg",
+    "library/carousel/late-checkout/05.jpg",
+    "library/carousel/late-checkout/06.jpg"
+   ],
+   "sources": [
+    {
+     "repo": "casa32-review-photos",
+     "path": "official/yeogi/20250811_decaef5e.jpg",
+     "sha256": "5ac278f38996284da659e16f328df2257ebce95c93a4b3f996c09d0dda95b960"
+    },
+    {
+     "repo": "casa32-review-photos",
+     "path": "official/yeogi/20250811_e7d961da.jpg",
+     "sha256": "77f9e27cbdc656b47225916641aac255214e9a057217a0bf0370b15ea0139901"
+    },
+    {
+     "repo": "casa32-review-photos",
+     "path": "official/yeogi/20250811_f9e33b90.jpg",
+     "sha256": "0162049eb4e2cc0e42f71decf7cd8c4e51cb82590a360656d24c5b198fdc6d96"
+    },
+    {
+     "repo": "casa32-review-photos",
+     "path": "official/yeogi/20250811_d64cc074.jpg",
+     "sha256": "d7d65f58e6ecc45c62c9f20cd3b230946cddeed7e2f6f135308918360b509ed9"
+    },
+    {
+     "repo": "casa32-review-photos",
+     "path": "official/yanolja_resort/대표_20240927_66f6bd718614b6.57061887.jpg",
+     "sha256": "6a1461c42c67c8c7b03b2eb897d07c7c2324133f3f3cdb49fdc5e39608f3a886"
+    },
+    {
+     "repo": "casa32-review-photos",
+     "path": "official/yeogi/20250811_bedaa02a.jpg",
+     "sha256": "ac1988bd8da10f9eaea11f8ea17d3227c602de257b97166a44b54726bbf5cc77"
+    }
+   ],
+   "used": "2026-11-27"
   }
  ],
  "reels": [
