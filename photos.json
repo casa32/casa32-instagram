@@ -582,5 +582,17 @@
   "used": null,
   "story_text": "https://raw.githubusercontent.com/casa32/casa32-instagram/main/story_text/rp_warm_bedlamp.jpg",
   "story_used": "2026-11-27"
+ },
+ {
+  "id": "rp_sofa_cushions",
+  "desc": "객실 거실 소파와 쿠션",
+  "source": "promo-library official/yanolja_resort/객실_20240927_66f694d1c6b246.37161827.jpg",
+  "sha256": "80c0809bc83aacfffc162fc726cbe82ba89a07f1f339bde1a433babad4da02f5",
+  "feed": null,
+  "story": "https://raw.githubusercontent.com/casa32/casa32-instagram/main/story/rp_sofa_cushions.jpg",
+  "quality": "medium",
+  "used": null,
+  "story_text": "https://raw.githubusercontent.com/casa32/casa32-instagram/main/story_text/rp_sofa_cushions.jpg",
+  "story_used": "2026-11-28"
  }
 ]
